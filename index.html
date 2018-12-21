@@ -23,7 +23,7 @@
                     <p><strong>1:</strong> Total Number of Questions:10</p>
                     <p><strong>3:</strong> Each question carry 2 marks each</p>
                     <p><strong>2:</strong> To be sure, before submit your answers take a simple review.</p>
-                    <form>                         
+                    <form id="form" action="index.html" method="POST" name="form">                         
                         <div class="well">
                             <div class="panel panel-heading">
                                 <h3>Question 1</h3>
@@ -38,37 +38,37 @@
                                 <h3>Question 2</h3>
                             </div>
                             <p>Which of the following function of Array object sorts the elements of an array?</p>
-                            <input type="radio" name="qst2" class="incorrect" value="toSource()">toSource()<br>
-                            <input type="radio" name="qst2" class="correct" value="sort()">sort()<br>                        
-                            <input type="radio" name="qst2"  class="incorrect" value="toString()">toString()<br>  
+                            <input type="radio" name="qst2" class="incorrect" value="false">toSource()<br>
+                            <input type="radio" name="qst2" class="correct" value="true">sort()<br>                        
+                            <input type="radio" name="qst2"  class="incorrect" value="false">toString()<br>  
                         </div>
                         <div class="well">
                             <div class="panel panel-heading">
                                 <h3>Question 3</h3>
                             </div>
                             <p> Which of the following function of Array object creates a new array with the results of calling a provided function on every element in this array?</p>
-                            <input type="radio" name="qst3" class="incorrect" value="push()">push()<br>
-                            <input type="radio" name="qst3" class="incorrect" value="join()">join()<br>                        
-                            <input type="radio" name="qst3" class="correct" value="map()">map()<br> 
+                            <input type="radio" name="qst3" class="incorrect" value="false">push()<br>
+                            <input type="radio" name="qst3" class="incorrect" value="false">join()<br>                        
+                            <input type="radio" name="qst3" class="correct" value="true">map()<br> 
                         </div>
                         <div class="well">
                             <div class="panel panel-heading">
                                 <h3>Question 4</h3>
                             </div>
                             <p>Which of the following is the best to declare a variable?</p>
-                            <input type="radio" name="qst4" class="correct" value="var x=0;">var x=0;<br>
-                            <input type="radio" name="qst4" class="incorrect" value="Var x=0;">Var x=0;<br>                        
-                            <input type="radio" name="qst4" class="incorrect" value="VAR x=0;">VAR x=0;<br>  
+                            <input type="radio" name="qst4" class="correct" value="true;">var x=0;<br>
+                            <input type="radio" name="qst4" class="incorrect" value="false;">Var x=0;<br>                        
+                            <input type="radio" name="qst4" class="incorrect" value="false;">VAR x=0;<br>  
                         </div>
                         <div class="well">
                             <div class="panel panel-heading">
                                 <h3>Question 5</h3>
                             </div>
                             <p> How can you get the type of arguments passed to a function?</p>
-                            <input type="radio" name="qst5" class="incorrect" value="using getType function">using getType function<br>
-                            <input type="radio" name="qst5" class="correct" value="using typeof operator">using typeof operator<br>                        
-                            <input type="radio" name="qst5" class="incorrect" value="Both of the above">Both of the above<br> 
-                            <input type="radio" name="qst5" class="incorrect" value="None of the above">None of the above<br> 
+                            <input type="radio" name="qst5" class="incorrect" value="false">using getType function<br>
+                            <input type="radio" name="qst5" class="correct" value="true">using typeof operator<br>                        
+                            <input type="radio" name="qst5" class="incorrect" value="false">Both of the above<br> 
+                            <input type="radio" name="qst5" class="incorrect" value="false">None of the above<br> 
                                 
                         </div>
                         <div class="well">
@@ -76,20 +76,20 @@
                                 <h3>Question 6</h3>
                             </div>
                             <p>Which of the following function of Number object returns a string value version of the current number?</p>
-                            <input type="radio" name="qst6" class="correct" value="toString()">toString()<br>
-                            <input type="radio" name="qst6" class="incorrect" value="toFixed()">toFixed()<br> 
-                            <input type="radio" name="qst6" class="incorrect" value="toPrecision()">toPrecision()<br>                        
-                            <input type="radio" name="qst6" class="incorrect" value="toLocaleString()">toLocaleString()<br>                        
+                            <input type="radio" name="qst6" class="correct" value="true">toString()<br>
+                            <input type="radio" name="qst6" class="incorrect" value="false">toFixed()<br> 
+                            <input type="radio" name="qst6" class="incorrect" value="false">toPrecision()<br>                        
+                            <input type="radio" name="qst6" class="incorrect" value="false">toLocaleString()<br>                        
                         </div>                           
                         <div class="well"> 
                             <div class="panel panel-heading">
                                 <h3>Question 7</h3>
                             </div>
                             <p>Which of the following type of variable is visible only within a function where it is defined?</p>
-                            <input type="radio" name="qst7" class="incorrect" value="global variable">global variable<br>
-                            <input type="radio" name="qst7" class="correct" value="local variable">local variable<br>                        
-                            <input type="radio" name="qst7" class="incorrect" value="Both of the above">Both of the above<br>
-                            <input type="radio" name="qst7" class="incorrect" value="None of the above">None of the above<br>  
+                            <input type="radio" name="qst7" class="incorrect" value="false">global variable<br>
+                            <input type="radio" name="qst7" class="correct" value="true">local variable<br>                        
+                            <input type="radio" name="qst7" class="incorrect" value="false">Both of the above<br>
+                            <input type="radio" name="qst7" class="incorrect" value="false">None of the above<br>  
                                 
                         </div>
                         <div class="well">
@@ -97,10 +97,10 @@
                                 <h3>Question 8</h3>
                             </div>
                             <p>Which of the following function of Number object forces a number to display in exponential notation?</p>
-                            <input type="radio" name="qst8" class="correct" value="toExponantial()">toExponantial()<br>
-                            <input type="radio" name="qst8" class="incorrect" value="toFixed()">toFixed()<br>                        
-                            <input type="radio" name="qst8" class="incorrect" value="toPrecision()">toPrecision()<br> 
-                            <input type="radio" name="qst8" class="incorrect" value="toLocaleString()">toLocaleString()<br> 
+                            <input type="radio" name="qst8" class="correct" value="true">toExponantial()<br>
+                            <input type="radio" name="qst8" class="incorrect" value="false">toFixed()<br>                        
+                            <input type="radio" name="qst8" class="incorrect" value="false">toPrecision()<br> 
+                            <input type="radio" name="qst8" class="incorrect" value="false">toLocaleString()<br> 
                                 
                         </div>
                         <div class="well">
@@ -108,35 +108,38 @@
                                 <h3>Question 9</h3>
                             </div>
                             <p>Which of the following function of String object is used to match a regular expression against a string?</p>
-                            <input type="radio" name="qst9" class="incorrect" value="concat()">concat()<br>
-                            <input type="radio" name="qst9" class="correct" value="match()">match()<br>                        
-                            <input type="radio" name="qst9" class="incorrect" value="search()">search()<br> 
-                            <input type="radio" name="qst9" class="incorrect" value="replace()">replace()<br>  
+                            <input type="radio" name="qst9" class="incorrect" value="false" required>concat()<br>
+                            <input type="radio" name="qst9" class="correct" value="true">match()<br>                        
+                            <input type="radio" name="qst9" class="incorrect" value="false">search()<br> 
+                            <input type="radio" name="qst9" class="incorrect" value="false">replace()<br>  
                         </div>
                         <div class="well">
                             <div class="panel panel-heading">
                                 <h3>Question 10</h3>
                             </div>
                             <p>Which of the following is correct about features of JavaScript?</p>
-                            <input type="radio" name="qst10" class="incorrect" value="Javascript is a lightweight, interpreted programming language.">Javascript is a lightweight, interpreted programming language.<br>
-                            <input type="radio" name="qst10" class="incorrect" value="Javascript is designed for creating network-centric applications.">Javascript is designed for creating network-centric applications.<br>                        
-                            <input type="radio" name="qst10" class="incorrect" value="Javascript is comlementary to and integrated with java.">Javascript is comlementary to and integrated with java.<br> 
-                            <input type="radio" name="qst10" class="correct" value="All of the above.">All of the above.<br>  
+                            <input type="radio" name="qst10" class="incorrect" value="false">Javascript is a lightweight, interpreted programming language.<br>
+                            <input type="radio" name="qst10" class="incorrect" value="false">Javascript is designed for creating network-centric applications.<br>                        
+                            <input type="radio" name="qst10" class="incorrect" value="false">Javascript is comlementary to and integrated with java.<br> 
+                            <input type="radio" name="qst10" class="correct" value="true">All of the above.<br>  
                         </div>
+                    </form>                    
                         <div class="row">
                             <div class="col-sm-2">
-                                <input type="submit" value="Submit" id="Result">
+                                <input type="button" name="result" value="Submit" id="Result" onclick="check()";>
+                            </div>
+                            <div id="twenty-p">
+                                <p id="correctAnswers">Your Score is:</p>
                             </div>
                         </div> 
-                    </form>                    
                     <div class="panel-footer">
                         <p><strong><em>Software testing is a sport like hunting, it's bughunting.</em></strong></p>
                     </div>
                 </div>
             </div>
-            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-            <script src="js/javas.js"></script>
         </div>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+        <script src="js/javas.js"></script>
     </body>
 </html>
         
