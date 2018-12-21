@@ -19,3 +19,6 @@ h3{
 .container{
     background-color:black;
 }
+#Result{
+    background-color: lightgrey;
+}
