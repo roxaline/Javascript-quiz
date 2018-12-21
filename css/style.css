@@ -4,9 +4,12 @@
 .panel-heading{
     color: teal;
 }
-p{
+.p{
     font-style: italic;
 }
 h3{
     font-style: oblique;
+}
+.well{
+    background-color: whitesmoke;
 }
