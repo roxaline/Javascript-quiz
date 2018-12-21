@@ -1,3 +1,6 @@
 .panel-body{
     background-color: darkgrey;
 }
+.panel-heading{
+    color: teal;
+}
