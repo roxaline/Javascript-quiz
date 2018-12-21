@@ -21,7 +21,8 @@ h3{
 }
 #Result{
     background-color: lightgrey;
-    font-weight: 600;
+    font-weight:bold;
     font-size: 21px;
     padding: 2%;
+    border-color: black;
 }
