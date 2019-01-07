@@ -2,7 +2,7 @@
 #### by **UWABIKIRAMARIYA Roselyne**
 ## Description
 This javascript-uiz website displays a set of questions that has to be done online by the user.
-These include the condtions that are applied to give more explanations about what is really happening when a user select an answer from each question. 21th December 2018.
+These include the conditions that are applied to give more explanations about what is really happening when a user select an answer from each question. 21th December 2018.
 
 **Codes**
 ```
@@ -16,6 +16,7 @@ These include the condtions that are applied to give more explanations about wha
 
 These above, are the tools that i use to acheive my desires during this class, at WeCode moringa school
 ## BDD
+first of all, there is a login form where user has to access the quiz by loging in with his/her email and passoword.
 This javascript-quiz website has several different questions about javascript, they are multiple choices. 
 A user has a right to choose any answer from each question,  after clicking "Submit" there come the total marks of the correct answers over the total marks of the whole questions.
 ## Technologies Used
