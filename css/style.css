@@ -19,12 +19,57 @@ h3{
 .container{
     background-color:black;
 }
-#Result{
-    background-color: lightgrey;
+#button{
+    background-color: teal;
     font-weight:bold;
     font-size: 21px;
     padding: 2%;
-    border-color: black;
-    border-radius: 8px;
-    border: solid;
+    border-color:teal;
+    border-radius: 6px;
+    color: black;
+}
+#point{
+    text-align: center;
+    visibility: hidden;
+}
+.login{
+    background-color:white;
+    color: black;
+}
+a.forgot{
+    color: white;
+}
+.login-form{ 
+    text-align:center;
+}
+.forgot a{
+  color:blue;
+  font-size: 14px;
+  text-decoration: underline;
+}
+.form-heading{
+    text-align:center;
+}
+.main-div {
+    background-color:#3c5f68;
+    border-radius: 4px;
+    margin: 10px auto 30px;
+    max-width: 38%;
+    padding: 50px 70px 70px 71px;
+  }
+  .well-login{
+background-image: url("https://images.pexels.com/photos/531880/pexels-photo-531880.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+background-size: cover;
+}
+.log-In{
+    width: 100px;
+    border: #3c5f68;
+    border-radius: 20px;
+    background-color: cadetblue;
+}
+.log-In a{
+    color: black;
+}
+.botto-text{
+    font-weight: 500;
 }

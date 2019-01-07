@@ -1,4 +1,4 @@
-# Triangle-tracker
+# Javascript-Quiz-Board
 #### by **UWABIKIRAMARIYA Roselyne**
 ## Description
 This javascript-quiz website displays a set of questions that has to be done online by the user.
